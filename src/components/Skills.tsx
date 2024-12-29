@@ -6,22 +6,67 @@ const Skills = () => {
     {
       title: "Languages & Frameworks",
       icon: <Code2 className="w-6 h-6 text-blue-400" />,
-      skills: ["JavaScript", "TypeScript", "Python", "Node.js", "React.js", "React Native", "NestJS", "Express.js"]
+      skills: [
+        "JavaScript (Advanced)", 
+        "TypeScript", 
+        "Python (Intermediate)", 
+        "Node.js", 
+        "React.js (Advanced)", 
+        "React Native (Advanced)", 
+        "NestJS", 
+        "Express.js (Advanced)"
+      ]
+    },
+    {
+      title: "AI & Machine Learning",
+      icon: <Code2 className="w-6 h-6 text-red-400" />,
+      skills: [
+        "LLaMA", 
+        "Ollama", 
+        "Hugging Face Transformers", 
+        "OpenAI API", 
+        "Natural Language Processing", 
+        "Retrieval-Augmented Generation (RAG)"
+      ]
     },
     {
       title: "Databases",
       icon: <Database className="w-6 h-6 text-teal-400" />,
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
+      skills: [
+        "MySQL", 
+        "PostgreSQL", 
+        "MongoDB", 
+        "Redis", 
+        "Firebase Realtime Database"
+      ]
     },
     {
       title: "DevOps & Cloud",
       icon: <Server className="w-6 h-6 text-purple-400" />,
-      skills: ["Kubernetes", "Docker", "CI/CD", "DigitalOcean"]
+      skills: [
+        "Kubernetes (Intermediate)", 
+        "Docker (Advanced)", 
+        "CI/CD", 
+        "DigitalOcean", 
+        "Bare-metal Infrastructure", 
+        "Terraform", 
+        "Nginx", 
+        "GitHub Actions"
+      ]
     },
     {
       title: "Other Technologies",
       icon: <GitBranch className="w-6 h-6 text-green-400" />,
-      skills: ["Web3", "RabbitMQ", "Hugging Face", "RESTful APIs"]
+      skills: [
+        "Web3", 
+        "RabbitMQ", 
+        "RESTful APIs", 
+        "GraphQL", 
+        "Microservices", 
+        "Webpack", 
+        "Babel", 
+        "ESLint"
+      ]
     }
   ];
 

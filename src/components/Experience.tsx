@@ -4,37 +4,53 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: "DevOps Engineer",
+      company: "Learngual",
+      location: "Remote",
+      period: "Dec 2022 – Present",
+      achievements: [
+        "Leveraged LLaMA and Ollama models for advanced language learning applications",
+        "Implemented essay and conversation topic relevance analysis using cutting-edge NLP technologies",
+        "Developed intelligent grammar analysis and feedback generation workflows",
+        "Revolutionized speech analysis workflow, achieving 10x performance improvement",
+        "Optimized AI model selection, reducing to LLaMA 3.2:3b for enhanced efficiency",
+        "Integrated Vosk for transcription and PocketSphinx for speech alignment",
+        "Configured bare-metal infrastructure to optimize AI model deployments",
+        "Implemented Nginx as a reverse proxy for secure and efficient service routing",
+        "Consolidated AI model deployments from 5 separate instances to a single bare-metal infrastructure",
+        "Decreased model deployment time from 45 minutes to 6 minutes (87% reduction)",
+        "Enhanced user engagement by 40% through innovative React.js interfaces",
+        "Successfully launched e-developer section with production-ready API for language learning"
+      ]
+    },
+    {
       title: "Backend Engineer",
       company: "Wynk",
       location: "Lagos, Nigeria (Remote)",
       period: "February 2024 – Present",
       achievements: [
-        "Developed and maintained the onboarding and authentication microservice",
-        "Designed and optimized the vault microservice, reducing transaction errors by 10%",
-        "Led the deployment of microservices on Kubernetes in DigitalOcean, reducing deployment time by 70%"
+        "Developed backend services for secure bill payment processing and fintech operations",
+        "Handled integrations with multiple financial institutions and billers",
+        "Automated deployment pipelines and managed staging environments",
+        "Enhanced backend scalability and reliability, minimizing system downtime",
+        "Designed solutions to improve data integrity and security compliance",
+        "Collaborated closely with frontend teams to ensure seamless API integration",
+        "Implemented robust security measures for sensitive financial transactions"
       ]
     },
     {
-      title: "DevOps Engineer",
-      company: "Learngual",
-      location: "Remote",
-      period: "2023 – Present",
-      achievements: [
-        "Deployed AI models on Hugging Face",
-        "Implemented CI/CD pipelines using GitHub Actions, reducing errors by 25%",
-        "Managed Kubernetes-based deployment for frontend and backend",
-        "Reduced deployment time by 70%"
-      ]
-    },
-    {
-      title: "Backend Developer",
-      company: "Harmonic Studioz",
+      title: "Full Stack Developer",
+      company: "Ginyverse",
       location: "Nigeria (Remote)",
-      period: "December 2022 – November 2023",
+      period: "2022 – Early 2024",
       achievements: [
-        "Developed APIs for cross-border payment platform",
-        "Implemented Docker and Kubernetes for deployment",
-        "Integrated multiple service provider APIs, reducing failures by 15%"
+        "Developed cross-platform React Native mobile applications and web platforms",
+        "Designed and implemented secure RESTful APIs using Node.js and Express.js",
+        "Focused on real-time task-sharing functionalities with enhanced user interaction",
+        "Managed deployment pipelines on DigitalOcean using Docker and Kubernetes",
+        "Integrated secure payment gateways to improve platform monetization",
+        "Conducted comprehensive performance optimization and cross-platform compatibility testing",
+        "Ensured high availability and reliability of web and mobile services"
       ]
     }
   ];
